@@ -1,0 +1,120 @@
+html {
+  box-sizing: border-box;
+  background-color: #F9FBFA;
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body{
+  padding: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+#card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+#top{
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+  background-color: #e5eff5;
+}
+
+#bottom{
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#left{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #209492;
+  padding: 25px;
+}
+
+#right{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+  padding: 25px;
+  background-color: #2ab2af;
+}
+
+button{
+  background-color: #c0df34;
+  border: none;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Karla';
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 8px 10px 27px 0px rgba(0,0,0,0.41);
+-webkit-box-shadow: 8px 10px 27px 0px rgba(0,0,0,0.41);
+-moz-box-shadow: 8px 10px 27px 0px rgba(0,0,0,0.41);
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #A6C22D;
+  transform: scale(1.01);
+}
+
+#top h2{
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+#top h4{
+  color: #c0df34;
+  margin-bottom: 15px;
+}
+
+#top p{
+  color: #5c5959;
+}
+
+#left h4{
+  margin-bottom: 20px;
+}
+
+#left p{
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+#dolla{
+  font-weight: 700;
+  font-size: 1.4rem;
+
+}
+
+#dollacontain{
+  margin-bottom: 15px;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
